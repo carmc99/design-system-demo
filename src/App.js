@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { useState } from "react";
 import "./App.css";
 import {
@@ -21,24 +20,24 @@ function App() {
 
   return (
     <div className="App">
-      <div class="grid-container">
-        <div class="grid-item">
+      <div className="grid-container">
+        <div className="grid-item">
           <TuyaButton
             label={"Button " + count}
             onClick={() => setCount(count + 1)}
           ></TuyaButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput placeholder="Button"></TuyaInput>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaCheckBox
             label="Button"
             selected={checkBoxState}
             onClick={checkBoxSelected}
           ></TuyaCheckBox>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaButton
             iconHeight="1.5rem"
             iconName="IconCards"
@@ -50,25 +49,25 @@ function App() {
             vertical
           />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput placeholder="TuyaInput" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaRadioButton disabled label="RadioButton" onClick={() => {}} />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaButton label="Button"></TuyaButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput disabled placeholder="Disabled" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaRadioButton label="Button" selected></TuyaRadioButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaButton primary label="Button"></TuyaButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput
             errMsg="Error al enviar la informacion"
             error
@@ -76,29 +75,29 @@ function App() {
             value="not valid"
           />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaRadioButton label="RadioButton" onClick={() => {}} size="bog" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaButton primary label="Button" size="big"></TuyaButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput iconOutsideLeftName="IconAjust" placeholder="input" />
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div className="grid-item"></div>
+        <div className="grid-item">
           <TuyaButton primary label="Button" disabled></TuyaButton>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <TuyaInput iconInsideRightName="IconFunShare" placeholder="input" />
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div className="grid-item"></div>
+        <div className="grid-item">
           <TuyaButton primary label="Button" vertical></TuyaButton>
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div className="grid-item"></div>
+        <div className="grid-item"></div>
+        <div className="grid-item">
           <TuyaButton
             primary
             label="Button"
@@ -106,9 +105,9 @@ function App() {
             iconName="IconCards"
           ></TuyaButton>
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div className="grid-item"></div>
+        <div className="grid-item"></div>
+        <div className="grid-item">
           <TuyaButton
             primary
             label="Button square"
@@ -119,8 +118,8 @@ function App() {
             iconHeight="3em"
           ></TuyaButton>
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
+        <div className="grid-item"></div>
+        <div className="grid-item"></div>
       </div>
     </div>
   );
