@@ -5,6 +5,7 @@ import {
   TuyaInput,
   TuyaCheckBox,
   TuyaRadioButton,
+  TuyaButtonReact
 } from "tuya-design-system";
 
 function App() {
@@ -120,6 +121,12 @@ function App() {
         </div>
         <div className="grid-item"></div>
         <div className="grid-item"></div>
+        <div className="grid-item">
+          <TuyaButtonReact
+          primary
+          label="Button React"
+          ></TuyaButtonReact>
+        </div>
       </div>
     </div>
   );
