@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background-color: rgb(248, 248, 248);
 }
 
 .App-logo {
@@ -12,9 +12,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+li {
+  margin: 2em;
+}
 .App-header {
-  background-color: white;
+  background-color: rgb(244, 244, 244);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +38,14 @@
     transform: rotate(360deg);
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+}
+
+
